@@ -1,0 +1,86 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  /* Стили для шрифта */
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.img {
+  text-align: center;
+  margin-top: 117px;
+  margin-bottom: 54px;
+}
+
+.text {
+  color: rgb(32, 49, 82);
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.paragraph {
+  color: rgb(124, 134, 152);
+  font-size: 13px;
+  line-height: 22px;
+  margin-bottom: 48px;
+}
+
+.paragraph,
+.text {
+  text-align: center;
+  letter-spacing: 0px;
+  font-weight: 500;
+}
+
+.button_group {
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+.button {
+  cursor: pointer;
+  width: 152px;
+  height: 48px;
+  background-color: transparent;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-transform: uppercase;
+  transition: all 0.23s ease-in-out;
+}
+
+.button_skip {
+  border: 1px solid rgb(143, 155, 179);
+  color: rgb(24, 44, 87);
+}
+
+.button_skip:hover {
+  background-color: rgba(28, 27, 40, 0.5);
+  color: white;
+}
+
+.button_next {
+  background-color: rgb(28, 27, 40);
+  color: white;
+}
+
+.button_next:hover {
+  background-color: rgba(28, 27, 40, 0.5);
+  color: rgb(24, 44, 87);
+  border: 1px solid rgb(143, 155, 179);
+}
+
+.button_skip:hover,
+.button_next:hover {
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
